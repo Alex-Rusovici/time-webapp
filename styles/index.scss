@@ -1,0 +1,15 @@
+// fonts
+@import './fonts';
+
+// reset
+@import './reset';
+
+// variables
+@import './variables';
+
+// common 
+@import './common/index';
+
+body div {
+    font-family: Lato, sans-serif;
+}
