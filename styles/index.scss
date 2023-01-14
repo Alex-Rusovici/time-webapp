@@ -7,9 +7,24 @@
 // variables
 @import './variables';
 
+// bootstrap
+@import './../node_modules/bootstrap/scss/bootstrap-reboot';
+@import './../node_modules/bootstrap/scss/bootstrap-grid';
+@import './../node_modules/bootstrap/scss/bootstrap-utilities.scss';
+
 // common 
 @import './common/index';
 
-body div {
+
+body {
     font-family: Lato, sans-serif;
+    background-color: $gray-primary;
+}
+
+.link-text {
+    text-decoration: none;
+}
+
+.link-text:hover {
+    color: inherit;
 }
