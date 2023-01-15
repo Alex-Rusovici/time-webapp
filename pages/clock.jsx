@@ -1,7 +1,9 @@
+import Clock from "components/clock/Clock";
+
 export default function clockPage() {
     return (
-      <div>
-        Something
+      <div className="container">
+        <Clock></Clock>
       </div>
   );
 }

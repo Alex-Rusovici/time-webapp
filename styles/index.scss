@@ -12,19 +12,27 @@
 @import './../node_modules/bootstrap/scss/bootstrap-grid';
 @import './../node_modules/bootstrap/scss/bootstrap-utilities.scss';
 
-// common 
+// common
 @import './common/index';
 
+// footer
+@import './common/footer/index';
+
+// homepage
+@import './homepage/index';
+
+// clock
+@import './clockpage/index';
 
 body {
-    font-family: Lato, sans-serif;
-    background-color: $gray-primary;
+  font-family: Lato, sans-serif;
+  background-color: $gray-primary;
 }
 
 .link-text {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .link-text:hover {
-    color: inherit;
+  color: inherit;
 }
